@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 
+namespace FirstTask;
+
 interface IHandler
 {
     TimeSpan Timeout { get; }
